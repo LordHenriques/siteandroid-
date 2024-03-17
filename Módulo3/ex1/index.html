@@ -9,29 +9,62 @@
             padding:0px;
             margin:0px
         }
-        header{
-            background-image: url("imagens/wallpaper002.jpg");
-            height: 200px;
-            color:rgb(238, 238, 238);
-            font-size:26px;
-            font-family:'Times New Roman', Times, serif;
-            text-align: center;
-            padding-top: 100px;
-            width:100%
-           
-        }
-        div{
-            border-bottom:1px solid black;  
-            border-radius: 3px ;
-        }
+        
+    div{
+        width: 400px;
+        height: 369px;
+        border:1px solid rgb(255, 252, 252);
+        
+       
+    }  
+    #esquerda{
+        background-image: url(imagens/ex/esquerda.jpg);
+       
+    }  
+    #direita{
+        position: relative;
+        left: 405px;
+        bottom: 372px;
+        background-image: url(imagens/ex/direita.jpg);
+}
+#besquerda{
+    position: relative;
+    bottom: 372px;
+    background-image: url(imagens/ex/baixo_esquerda.jpg);
+    background-position: right center;
+    background-position: left top;
+    height: 98hv;
+}
+#bdireita{
+    position:relative;
+    background-image: url(imagens/ex/baixo_direita.jpg);
+    bottom: 744px;
+    left:405px;
+    height: 98hv;
 
+}
+#ex{
+    
+}
+       
+      
+        
     </style>
 </head>
 <body>
-    <div>
+    
         <header>
             <h1>Company  Sliss</h1>
         </header>
-    </div>
+        
+        <div id="ex">
+            <div   id="esquerda"></div>
+            <div   id="direita"></div>
+            <div   id="besquerda"></div>
+            <div   id="bdireita"></div>
+        </div>
+
+    
+    
 </body>
 </html>
